@@ -1,0 +1,2 @@
+# safetip
+Palindrome tipping app

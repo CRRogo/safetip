@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phonegap>
+    <access origin="http://cdn.rawgit.com"/>
+    <access origin="http://cdnjs.cloudflare.com"/>
+    <access origin="http://code.jquery.com"/>
+    <access origin="http://maxcdn.bootstrapcdn.com"/>
+    <access origin="http://fonts.googleapis.com"/>
+
+    <log level="DEBUG"/>
+</phonegap>

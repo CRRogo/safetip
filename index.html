@@ -38,16 +38,10 @@
           <div class="navbar navbar-default">
             <div class="container-fluid">
               <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
+                
                 <a class="navbar-brand" href="javascript:void(0)">SafeTip</a>
               </div>
-              <div class="navbar-collapse collapse navbar-responsive-collapse">
-                
-              </div>
+              
             </div>
           </div>
         </div>
@@ -212,7 +206,8 @@ $('#total').on('input', function() {
 	
     noUiSlider.create(slider,{
       start: 20,
-      connect: "lower",
+	  behaviour: "snap",
+	  connect: 'lower',
       range: {
         min: 0,
         max: 50
